@@ -1,0 +1,33 @@
+{
+  "name": "node-gdrive",
+  "description": "",
+  "version": "0.0.1",
+  "author": "Ben Lyaunzon <lyaunzon.b@gmail.com>",
+  "keywords": [
+    "google",
+    "drive",
+    "gdrive",
+    "node-gdrive",
+    "google-api",
+    "api"
+  ],
+  "homepage": "https://github.com/lyaunzbe/node-gdrive",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lyaunzbe/node-gdrive.git"
+  },
+  "engines": {
+    "node": ">= 0.8.x"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "request": ">= 2.12.0",
+  },
+  "devDependencies": {
+    "mocha": ">= 1.7.4",
+    "chai": "~1.4.2"
+  },
+  "scripts": {
+    "test": "mocha test/*"
+  }
+}
